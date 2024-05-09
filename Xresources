@@ -12,12 +12,12 @@ regolith.look.path: /usr/share/regolith-look/default
 ! ------- !
 
 ! My GTK customization
-gtk.theme_name: Yaru-bark
-gtk.icon_theme_name: Yaru-bark
+gtk.theme_name: Yaru
+gtk.icon_theme_name: Yaru
 gtk.font_name: Bitstream Vera Sans 11
 gtk.document_font_name: Sans 11
 gtk.monospace_font_name: BitstreamVeraSansMono Nerd Font 12
-regolith.wallpaper.file: ~/.config/regolith3/wallpaper.jpg
+regolith.wallpaper.file: ~/.config/regolith3/wallpaper.png
 regolith.wallpaper.options: zoom
 
 ! status bar
