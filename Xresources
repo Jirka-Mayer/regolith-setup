@@ -38,27 +38,27 @@ wm.workspace.09.name: 9: 9
 wm.workspace.10.name: 10: 10
 
 ! terminal
-! Arthur theme from here:
+! Afterglow theme from here:
 ! https://github.com/Gogh-Co/Gogh
-gnome.terminal.color0:    #3D352A
-gnome.terminal.color1:    #CD5C5C
-gnome.terminal.color2:    #86AF80
-gnome.terminal.color3:    #E8AE5B
-gnome.terminal.color4:    #6495ED
-gnome.terminal.color5:    #DEB887
-gnome.terminal.color6:    #B0C4DE
-gnome.terminal.color7:    #BBAA99
-gnome.terminal.color8:    #554444
-gnome.terminal.color9:    #CC5533
-gnome.terminal.color10:   #88AA22
-gnome.terminal.color11:   #FFA75D
-gnome.terminal.color12:   #87CEEB
-gnome.terminal.color13:   #996600
-gnome.terminal.color14:   #B0C4DE
-gnome.terminal.color15:   #DDCCBB
+gnome.terminal.color0:    #151515
+gnome.terminal.color1:    #A53C23
+gnome.terminal.color2:    #7B9246
+gnome.terminal.color3:    #D3A04D
+gnome.terminal.color4:    #6C99BB
+gnome.terminal.color5:    #9F4E85
+gnome.terminal.color6:    #7DD6CF
+gnome.terminal.color7:    #D0D0D0
+gnome.terminal.color8:    #F5F5F5
+gnome.terminal.color9:    #A53C23
+gnome.terminal.color10:   #7B9246
+gnome.terminal.color11:   #D3A04D
+gnome.terminal.color12:   #547C99
+gnome.terminal.color13:   #9F4E85
+gnome.terminal.color14:   #7DD6CF
+gnome.terminal.color15:   #F5F5F5
 
 gnome.terminal.background-color: #1C1C1C
-gnome.terminal.foreground-color: #DDEEDD
+gnome.terminal.foreground-color: #F5F5F5
 
 gnome.terminal.font: BitstreamVeraSansMono Nerd Font 12
 gnome.terminal.scrollbar: never
