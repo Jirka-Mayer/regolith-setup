@@ -1,0 +1,86 @@
+! To apply these settings, run
+! regolith-look refresh
+
+! The chosen regolith look to base off of
+!regolith.look.path: /usr/share/regolith-look/gruvbox
+!regolith.look.path: /usr/share/regolith-look/dracula
+regolith.look.path: /usr/share/regolith-look/default
+!regolith.look.path: /usr/share/regolith-look/ayu-dark
+
+! ------- !
+! STYLING !
+! ------- !
+
+! My GTK customization
+gtk.theme_name: Yaru-bark
+gtk.icon_theme_name: Yaru-bark
+gtk.font_name: Bitstream Vera Sans 11
+gtk.document_font_name: Sans 11
+gtk.monospace_font_name: BitstreamVeraSansMono Nerd Font 12
+regolith.wallpaper.file: ~/.config/regolith3/wallpaper.jpg
+regolith.wallpaper.options: zoom
+
+! status bar
+wm.bar.position: bottom
+wm.bar.background.color: #222222
+i3xrocks.value.color: #CCCCCC
+i3xrocks.label.color: #666666
+
+wm.workspace.01.name: 1: 1
+wm.workspace.02.name: 2: 2
+wm.workspace.03.name: 3: 3
+wm.workspace.04.name: 4: 4
+wm.workspace.05.name: 5: 5
+wm.workspace.06.name: 6: 6
+wm.workspace.07.name: 7: 7
+wm.workspace.08.name: 8: 8
+wm.workspace.09.name: 9: 9
+wm.workspace.10.name: 10: 10
+
+! terminal
+! Arthur theme from here:
+! https://github.com/Gogh-Co/Gogh
+gnome.terminal.color0:    #3D352A
+gnome.terminal.color1:    #CD5C5C
+gnome.terminal.color2:    #86AF80
+gnome.terminal.color3:    #E8AE5B
+gnome.terminal.color4:    #6495ED
+gnome.terminal.color5:    #DEB887
+gnome.terminal.color6:    #B0C4DE
+gnome.terminal.color7:    #BBAA99
+gnome.terminal.color8:    #554444
+gnome.terminal.color9:    #CC5533
+gnome.terminal.color10:   #88AA22
+gnome.terminal.color11:   #FFA75D
+gnome.terminal.color12:   #87CEEB
+gnome.terminal.color13:   #996600
+gnome.terminal.color14:   #B0C4DE
+gnome.terminal.color15:   #DDCCBB
+
+gnome.terminal.background-color: #1C1C1C
+gnome.terminal.foreground-color: #DDEEDD
+
+gnome.terminal.font: BitstreamVeraSansMono Nerd Font 12
+gnome.terminal.scrollbar: never
+gnome.terminal.use-transparent-background: true
+gnome.terminal.background-transparency-percent: 5
+
+
+! ------------ !
+! KEY BINDINGS !
+! ------------ !
+
+! Remapping keybindings to dmenu-like, NOPE, LETS LEARN REGOLITH
+! wm.binding.launcher.app: Shift+d
+! wm.binding.launcher.cmd: d
+! wm.binding.files: n
+! wm.program.notification_ui: Shift+n
+! wm.binding.browser: c
+
+! Remove bindings to D and C so that i dont accidentally use them out of habbit
+! (disabledX is a non-existing key name)
+wm.binding.display: disabled1
+wm.binding.settings: disabled2
+
+! Remove W so that it can be used to enter stacking behaviour
+wm.binding.wifi: disabled3
