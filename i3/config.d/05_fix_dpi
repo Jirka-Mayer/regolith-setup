@@ -1,1 +1,5 @@
-exec xrandr --dpi 192
+# Since Noble Numbat 24.04, this no longer works:
+# exec xrandr --dpi 192
+# Instead, a DPI-setting line was added to Xresources:
+# Xft.dpi: 192
+# And i3 loads this since the update (it did not before).
